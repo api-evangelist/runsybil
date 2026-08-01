@@ -1,8 +1,34 @@
 aid: runsybil
 name: Runsybil
-description: Runsybil is a company surfaced as a portfolio company of menlo-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  RunSybil is an AI-native autonomous offensive security platform. Sybil — a
+  system of AI agents — continuously penetration tests live applications and
+  infrastructure, finding, exploiting, and validating real vulnerabilities
+  without a human in the loop. It tests live applications black-box by default
+  (no source code required), integrates with GitHub and GitLab to trigger
+  targeted change testing on every code push, and validates every finding
+  through a multi-agent pipeline before it surfaces, aiming to eliminate triage
+  and false positives. RunSybil positions as a replacement for point-in-time
+  penetration testing, legacy DAST/SAST scanners, and bug bounty programs, and
+  also offers white-box testing for deeper codebase exploration. Founded in 2023
+  by Ari Herbert-Voss (OpenAI's first security hire) and Vlad Ionescu
+  (Offensive Security Tech Lead at Meta), the company raised $40M led by Khosla
+  Ventures and is trusted by security teams at Notion, Cursor, Turbopuffer,
+  Baseten, and Thinking Machines Lab. No public developer API, SDK, or API
+  documentation surface is published at this time.
 url: https://raw.githubusercontent.com/api-evangelist/runsybil/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/65f0bacd8d542276115a3910/696aa2cbcc07aa7c68427d3b_sybil-og.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +37,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Security
+- Offensive Security
+- Penetration Testing
+- Application Security
+- Vulnerability Management
+- Artificial Intelligence
+- AI Agents
+- DevSecOps
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +56,29 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://runsybil.com
+  url: https://www.runsybil.com
+- type: About
+  url: https://www.runsybil.com/company
+- type: Blog
+  url: https://www.runsybil.com/blog
+- type: SignUp
+  url: https://www.runsybil.com/schedule-a-demo
+- type: TermsOfService
+  url: https://www.runsybil.com/terms-of-conditions
+- type: GitHubOrganization
+  url: https://github.com/runsybil
+- type: LinkedIn
+  url: https://www.linkedin.com/company/runsybil
+- type: Compliance
+  url: https://www.runsybil.com/company
+- type: Conformance
+  url: conformance/runsybil-conformance.yml
+- type: DomainSecurity
+  url: security/runsybil-domain-security.yml
+- type: LLMsTxt
+  url: llms/runsybil-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

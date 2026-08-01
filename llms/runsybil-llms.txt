@@ -1,0 +1,31 @@
+# RunSybil
+
+> RunSybil is an AI-native autonomous offensive security platform. Sybil — a system of AI agents — continuously penetration tests live applications and infrastructure, finding, exploiting, and validating real vulnerabilities without humans in the loop. Founded in 2023 by Ari Herbert-Voss (OpenAI's first security hire) and Vlad Ionescu (Offensive Security Tech Lead, Meta), RunSybil has raised $40M led by Khosla Ventures. Trusted by security teams at Notion, Cursor, Turbopuffer, Baseten, and Thinking Machines Lab.
+
+RunSybil replaces point-in-time penetration testing, legacy DAST/SAST scanners, and bug bounty programs. Sybil tests live applications black-box by default — no source code required — integrates with GitHub and GitLab to trigger targeted change testing on every code push, and validates every finding through a multi-agent pipeline before it surfaces. No triage. No false positives. RunSybil also offers white-box testing for more in-depth exploration of a company's codebase.
+
+Sybil is not a scanner, an EDR solution, an auto-SOC, a code scanner, or an LLM wrapper on a legacy vulnerability tool.
+
+## Home
+
+- [RunSybil](https://www.runsybil.com/): Product overview, use cases, customer quotes, and sample report. Five deployment patterns: high-risk application security testing, continuous attack surface monitoring, multi-tenant and business logic testing, bug bounty and pentesting replacement, cloud and infrastructure security validation.
+
+## Company
+
+- [Company](https://www.runsybil.com/company): Mission, founders, and team. Ari Herbert-Voss (CEO) — OpenAI's first security hire, core contributor to GPT-3 and Codex. Vlad Ionescu (CTO) — Offensive Security Tech Lead at Meta, founder of Red Team X, red teamer at Mandiant and NCC Group. SOC 2 Type II certified.
+- [Careers](https://www.runsybil.com/careers): Open roles. Hybrid, San Francisco and New York. Team background: OpenAI, Meta, Mandiant, NCC Group, Trail of Bits.
+
+## Resources
+
+- [Blog](https://www.runsybil.com/blog): Security research, technical findings, and product updates from the RunSybil team. Covers offensive security, AI and vulnerability discovery, GraphQL attack surfaces, and model evaluations.
+- [RunSybil Raises $40M](https://www.runsybil.com/post/runsybil-raises-40m-to-build-the-ai-native-platform-for-offensive-security): Funding announcement. Context on RunSybil's approach, category positioning, and early customers.
+
+## Contact
+
+- [Schedule a Demo](https://www.runsybil.com/schedule-a-demo): Demo request and early access.
+
+## Optional
+
+- [Exploiting Ancient Games With Early Access to Opus 4.8](https://www.runsybil.com/post/exploiting-ancient-games-with-early-access-to-opus-4-8): RunSybil's real-world evaluation of Anthropic's Opus 4.8 on a closed-source legacy codebase (Nintendo 64 Mario Golf). Covers model behavior observations, buffer overflow exploitation, and where models still fail on long-horizon agentic tasks.
+- [Sybil Is a Virgo](https://www.runsybil.com/post/sybil-is-a-virgo): Sybil's introduction in their own voice. Describes how Sybil reasons about applications, what distinguishes them from a scanner, and how they approach an attack surface.
+- [Beyond Introspection: The Apollo Federation Attack Surface Hidden in Plain Sight](https://www.runsybil.com/post/graphql-apollo-federation-attack-hidden-in-plain-sight): Technical post on how exposed Apollo Federation subgraphs leak full schema and internal graph behavior even when standard GraphQL introspection is disabled.
