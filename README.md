@@ -64,6 +64,84 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Runsybil is a company surfaced as a portfolio company of menlo-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+RunSybil is an AI-native autonomous offensive security platform. Sybil — a system of AI agents — continuously penetration tests live applications and infrastructure, finding, exploiting, and validating real vulnerabilities without a human in the loop. It tests live applications black-box by default (no source code required), integrates with GitHub and GitLab to trigger targeted change testing on every code push, and validates every finding through a multi-agent pipeline before it surfaces, aiming to eliminate triage and false positives. RunSybil positions as a replacement for point-in-time penetration testing, legacy DAST/SAST scanners, and bug bounty programs, and also offers white-box testing for deeper codebase exploration. Founded in 2023 by Ari Herbert-Voss (OpenAI's first security hire) and Vlad Ionescu (Offensive Security Tech Lead at Meta), the company raised $40M led by Khosla Ventures and is trusted by security teams at Notion, Cursor, Turbopuffer, Baseten, and Thinking Machines Lab. No public developer API, SDK, or API documentation surface is published at this time.
 
-Backed by: menlo-ventures — https://runsybil.com
+**Areas:** Company · Security · Offensive Security · Penetration Testing · Application Security · Vulnerability Management · Artificial Intelligence · AI Agents · DevSecOps
+
+## Runsybil on APIs.io
+
+Everything profiled for Runsybil is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/runsybil/](https://apis.io/providers/runsybil/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Runsybil Domain Security](https://apis.io/security/runsybil/runsybil-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.runsybil.com)
+- [Sign up](https://www.runsybil.com/schedule-a-demo)
+- [Blog](https://www.runsybil.com/blog)
+- [Compliance](https://www.runsybil.com/company)
+- [Terms of service](https://www.runsybil.com/terms-of-conditions)
+- [GitHub](https://github.com/runsybil)
+
+## API Evangelist rating
+
+**Kin Score 15.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 31.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/runsybil/](https://apis.io/providers/runsybil/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Runsybil: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/runsybil/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
